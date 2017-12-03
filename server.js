@@ -1,6 +1,7 @@
 var ghost = require('ghost');
 var cluster = require('cluster');
 
+
 // Heroku sets `WEB_CONCURRENCY` to the number of available processor cores.
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
 
